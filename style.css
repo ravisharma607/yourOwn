@@ -1,0 +1,146 @@
+
+*{
+    scroll-behavior:smooth;
+}
+.navbar{
+    position:fixed;
+    width: 100%;
+}
+.navbar-brand{
+    font-size:1.5rem;
+    letter-spacing: 1px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: cyan;
+}
+.bgImg .main-img{
+ background-image: url('./img/main-4.jpg');
+ background-size: 100% 100%;
+ background-attachment: fixed;
+ width: 100%;
+ height: 100vh;
+}
+.headerSet{
+    padding-top: 220px;
+    box-sizing: border-box;
+}
+.headerSet p{
+    font-size:18px;
+    margin:18px;
+    padding: 0;
+}
+.headerSet h1{
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.imgsetting img{
+    height: 200px;
+}
+.row .services{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+hr{
+background: cyan;
+}
+.row .services .imgsetting{
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+    padding: 15px 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgb(13, 54, 7);
+}
+.ourServices h1{
+    color: rgb(13, 54, 7);
+    font-weight: bold;
+}
+ h3{
+    color: rgb(13, 54, 7);
+}
+.imgsetting p{
+    color:rgb(24, 22, 22);
+}
+
+.footer{
+    height: 100px;
+    background:#00abff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(13, 54, 7);
+}
+.footer button{
+    margin:0 10px;
+}
+.footer h5{
+    color:rgb(13, 54, 7);
+    margin-top: 10px;
+}
+.team-card{
+    display: block;
+    margin: 20px auto;
+    width: 30%;
+    padding: 15px 20px;
+    border-radius: 6px;
+}
+.team-card img{
+    height: 200px;
+}
+.contact-form{
+    width:50%;
+    height:60vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+text-align: center;
+padding: 50px 0;
+margin-bottom: 70px;
+}
+.contact-form:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+background: linear-gradient(330deg,#16c9f6 55%, #fff 0%);
+            z-index: -1;
+}
+.contact-form textarea{
+    resize: none;
+}
+/* ---------------------------------------------- */
+@media screen and (max-width:800px){
+    .imgsetting img{
+        height: 180px;
+    }
+    .row .services .imgsetting{
+        width: 100%;
+    }
+    .headerSet p{
+        font-size:15px;
+        line-height:20px;
+        margin: 8px auto;
+        padding: 0;
+    }
+    .headerSet h1{
+        font-size: 32px;
+    }
+    .team-card{
+        width: 100%;
+    }
+    .contact-form{
+        width: 90%;
+    }
+}
+
+
+
+
