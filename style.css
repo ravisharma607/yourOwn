@@ -66,21 +66,21 @@ background: cyan;
 }
 
 .footer{
-    height: 100px;
     background:#00abff;
     text-align: center;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     color:rgb(13, 54, 7);
 }
 .footer button{
-    margin:0 10px;
+    margin:10px;
 }
 .footer h5{
     color:rgb(13, 54, 7);
-    margin-top: 10px;
+    margin-top:5px;
 }
 .team-card{
     display: block;
@@ -122,7 +122,7 @@ background: linear-gradient(330deg,#16c9f6 55%, #fff 0%);
         height: 180px;
     }
     .row .services .imgsetting{
-        width: 100%;
+        width:90%;
     }
     .headerSet p{
         font-size:15px;
